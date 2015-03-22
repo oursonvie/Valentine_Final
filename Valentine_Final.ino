@@ -246,7 +246,11 @@ void testdrawbitmap(const uint8_t *bitmap, uint8_t w, uint8_t h) {
     delay(500);
     servo.write(50);
     delay(500);*/
-   
+    
+    servo.write(140);
+    delay(1000);
+    servo.write(50);
+    delay(1000);
     
     // then erase it + move it
     for (uint8_t f=0; f< NUMFLAKES; f++) {
